@@ -314,7 +314,7 @@ nav a {
   margin-bottom: 250px;
   background-color: white;
   align-items: start;
-  display: none;
+  visibility: hidden;
 }
 .ligne-separatrice--2 {
   border-bottom: 1px solid black;
