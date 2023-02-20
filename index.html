@@ -10,19 +10,29 @@
 <body>
  <div class="fullpage"> 
   <header>
-    <h1 class="header__h1"> sneakers
-    </h1>
-    <nav>
-      <p>Collections</p>
-      <p>Men</p>
-      <p>Women</p>
-      <p>About</p>
-      <p>Contact</p>
-    </nav>
-    <div class="header__logo-panier"><img src="images/icon-cart.svg" alt="logo panier"></div>
-    <div class="header__photo-profil"><img src="images/image-avatar.png" alt="photo de profil"></div>
+    <div class="header-gauche">
+     <div class="header-gauche__logo">
+     <img src="images/logo.svg" alt="">
+     </div>
+     <nav>
+      <a href="">Collections</a>
+      <a href="">Men</a>
+      <a href="">Women</a>
+      <a href="">about</a>
+      <a href="">contact</a>
+     </nav>
+    </div>
+    <div class="header-droite">
+     <div class="header-droite__logo-panier"><img src="images/icon-cart.svg" alt="logo panier"></div>
+     <div class="header-droite__photo-profil"><img src="images/image-avatar.png" alt="photo de profil"></div>
+    </div>
   </header>
   <div class="ligne-separatrice"></div>
+ <div class ='panier-ouvert'>
+  <h3>cart</h3>
+  <div class="ligne-separatrice--2"></div>
+  <h4>your cart is empty</h4>
+ </div>
   <div class="contenu">
    <section class="section-gauche">
     <div class="section-gauche__image-principale">
@@ -79,10 +89,8 @@
 
   </section>
 
+ 
 
-
-  
-
-
+<script src="script.js"></script>
 </body>
 </html>
