@@ -70,6 +70,7 @@ nav a {
   justify-content: center;
   display: flex;
   margin-right: 40px;
+  cursor: pointer;
 }
 
 .header-droite__photo-profil {
@@ -253,6 +254,12 @@ nav a {
   margin-left: -70px;
 }
 
+.visible{
+  /* opacity: 1 !important; */
+  top: 150px !important;
+}
+
+
 @media screen and (max-width: 700px) {
   nav {
     display: none;
@@ -314,7 +321,9 @@ nav a {
   margin-bottom: 250px;
   background-color: white;
   align-items: start;
-  visibility: hidden;
+  /* opacity: 0; */
+  top: -400px;
+  transition: all 0.6s;
 }
 .ligne-separatrice--2 {
   border-bottom: 1px solid black;
